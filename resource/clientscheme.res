@@ -2880,17 +2880,38 @@ Scheme
 		
 		// aggahud fonts
 
-		"Chrome Yellow"
+		// Backstage Pass A DEMO - Nick's Fonts
+		"Backstage4"
 		{
 			"1"
 			{
-				"name"		"ChromeYellow"
-				"tall"		"16"
+				"name" "Backstage-PassA"
+				"tall" "4"
 				"antialias" "1"
 			}
 		}
 
-		"Backstage-16"
+		"Backstage8"
+		{
+			"1"
+			{
+				"name" "Backstage-PassA"
+				"tall" "8"
+				"antialias" "1"
+			}
+		}
+
+		"Backstage12"
+		{
+			"1"
+			{
+				"name" "Backstage-PassA"
+				"tall" "12"
+				"antialias" "1"
+			}
+		}
+
+		"Backstage16"
 		{
 			"1"
 			{
@@ -2901,7 +2922,7 @@ Scheme
 		}
 
 
-		"Backstage-20"
+		"Backstage20"
 		{
 			"1"
 			{
@@ -2911,7 +2932,17 @@ Scheme
 			}
 		}
 
-		"Backstage-32"
+		"Backstage24"
+		{
+			"1"
+			{
+				"name" "Backstage-PassA"
+				"tall" "24"
+				"antialias" "1"
+			}
+		}
+
+		"Backstage32"
 		{
 			"1"
 			{
@@ -2921,7 +2952,7 @@ Scheme
 			}
 		}
 
-		"Backstage-64"
+		"Backstage64"
 		{
 			"1"
 			{
@@ -2931,7 +2962,7 @@ Scheme
 			}
 		}
 
-		"Backstage-96"
+		"Backstage96"
 		{
 			"1"
 			{
@@ -2941,12 +2972,54 @@ Scheme
 			}
 		}
 
-		"Moogalator"
+
+		// Moogalator - Tup Wanders
+		"Moogalator16"
 		{
 			"1"
 			{
 				"name" "Moogalator"
 				"tall" "16"
+				"antialias" "1"
+			}
+		}
+
+		"Moogalator20"
+		{
+			"1"
+			{
+				"name" "Moogalator"
+				"tall" "20"
+				"antialias" "1"
+			}
+		}
+
+		"Moogalator32"
+		{
+			"1"
+			{
+				"name" "Moogalator"
+				"tall" "32"
+				"antialias" "1"
+			}
+		}
+
+		"Moogalator64"
+		{
+			"1"
+			{
+				"name" "Moogalator"
+				"tall" "64"
+				"antialias" "1"
+			}
+		}
+
+		"Moogalator96"
+		{
+			"1"
+			{
+				"name" "Moogalator"
+				"tall" "96"
 				"antialias" "1"
 			}
 		}
@@ -5927,25 +6000,19 @@ Scheme
 		"16"		"resource/linux_fonts/LiberationMono-Regular.ttf"
 		"17"		"resource/linux_fonts/FiraSans-Regular.ttf"
 
-		"18"
-		{
-					"font" "resource/fonts/chromeyellow.ttf"
-					"name" "ChromeYellow"
-		}
-
-		"19"
+		"50"
 		{
 					"font" "resource/fonts/moogalator.ttf"
 					"name" "Moogalator"
 		}
 
-		"20"
+		"51"
 		{
 					"font" "resource/fonts/moogalatorfiller.ttf"
 					"name" "Moogalator Filler"
 		}
 
-		"21"
+		"52"
 		{
 					"font" "resource/fonts/backstage-a.ttf"
 					"name" "Backstage-PassA"
