@@ -5,7 +5,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"100"		[$WIN32]
+		"xpos"			"10"		[$WIN32]
 		"xpos_minmode"	"-5"		[$WIN32]
 		"ypos"			"r120"	[$WIN32]
 		"ypos_minmode"	"r88"	[$WIN32]
@@ -16,8 +16,8 @@
 		"tall"			"120"
 		"visible"		"1"
 		"enabled"		"1"	
-		"HealthBonusPosAdj"	"35"
-		"HealthDeathWarning"	"0.49"
+		"HealthBonusPosAdj"	"5"
+		"HealthDeathWarning"	"0"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 	}	
 	"PlayerStatusHealthImage"
@@ -28,42 +28,42 @@
 		"xpos_minmode"	"60"
 		"ypos"			"35"
 		"zpos"			"4"
-		"wide"			"51"
-		"tall"			"51"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"	
+		"wide"			"55"
+		"tall"			"55"
+		"visible"		"0"
+		"enabled"		"0"
+		"scaleImage"	"1"
 	}		
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"73"
+		"xpos"			"67"
 		"xpos_minmode"	"58"
-		"ypos"			"33"
+		"ypos"			"27"
 		"zpos"			"3"
-		"wide"			"55"
-		"tall"			"55"
+		"wide"			"66"
+		"tall"			"66"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/health_bg"
-		"scaleImage"	"1"	
-	}	
+		"scaleImage"	"2"
+	}
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"73"	[$WIN32]
+		"xpos"			"67"	[$WIN32]
 		"xpos_minmode"	"65"	[$WIN32]
 		"xpos"			"83"	[$X360]
-		"ypos"			"33"	[$WIN32]
+		"ypos"			"27"	[$WIN32]
 		"ypos_minmode"	"40"	[$WIN32]
 		"ypos"			"43"	[$X360]
 		"zpos"			"2"
-		"wide"			"55"	[$WIN32]
+		"wide"			"66"	[$WIN32]
 		"wide_minmode"	"40"	[$WIN32]
 		"wide"			"35"	[$X360]
-		"tall"			"55"	[$WIN32]
+		"tall"			"66"	[$WIN32]
 		"tall_minmode"	"40"	[$WIN32]
 		"tall"			"35"	[$X360]
 		"visible"		"0"
@@ -75,19 +75,19 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"76"
+		"xpos"			"67"
 		"xpos_minmode"	"61"
-		"ypos"			"52"	[$WIN32]
+		"ypos"			"46"	[$WIN32]
 		"ypos"			"55"	[$X360]
 		"zpos"			"5"
-		"wide"			"50"
-		"tall"			"18"
+		"wide"			"60"
+		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"HudClassHealth"
-		"fgcolor"		"TanDark"
+		"font"			"Backstage-32"
+		"fgcolor"		"TanLight"
 	}
 	"PlayerStatusMaxHealthValue"
 	{
@@ -100,7 +100,7 @@
 		"zpos"			"6"
 		"wide"			"50"
 		"tall"			"18"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"%MaxHealth%"
 		"textAlignment"	"center"	
