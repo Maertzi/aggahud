@@ -2921,6 +2921,26 @@ Scheme
 			}
 		}
 
+		"Backstage-64"
+		{
+			"1"
+			{
+				"name" "Backstage-PassA"
+				"tall" "64"
+				"antialias" "1"
+			}
+		}
+
+		"Backstage-96"
+		{
+			"1"
+			{
+				"name" "Backstage-PassA"
+				"tall" "96"
+				"antialias" "1"
+			}
+		}
+
 		"Moogalator"
 		{
 			"1"
